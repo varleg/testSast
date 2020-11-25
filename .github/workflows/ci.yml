@@ -3,8 +3,8 @@ name: njsscan
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    paths:
+      - './**'
 jobs:
   njsscan:
     runs-on: ubuntu-latest
