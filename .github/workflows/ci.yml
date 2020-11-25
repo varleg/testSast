@@ -17,6 +17,7 @@ jobs:
       uses: ajinabraham/njsscan-action@master
       with:
         args: '.'
+    - run: njsscan
   snyk:
     runs-on: ubuntu-latest
     steps:
