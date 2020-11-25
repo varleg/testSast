@@ -1,0 +1,1 @@
+const msrest = require('@azure/ms-rest-nodeauth');
